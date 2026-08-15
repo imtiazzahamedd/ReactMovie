@@ -1,4 +1,4 @@
-import '../CSS/moviecard.css'
+import '../CSS/Moviecard.css'
 function Moviecard({ movie }) {
     function FavClick() {
         alert(`You have added ${movie.title} to your favourites!`);
@@ -7,7 +7,7 @@ function Moviecard({ movie }) {
         <>
             <div className="movie-card">
                 <div className="movie-poster">
-                    <img src={movie.url} alt={movie.title} />
+                    <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
                     <div className="movie-overlay">
                         <button className="favourite-btn" onClick={FavClick}>Fav</button>
                     </div>

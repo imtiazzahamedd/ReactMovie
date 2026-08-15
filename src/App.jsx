@@ -1,9 +1,9 @@
 import './CSS/App.css'
-import Moviecard from './components/moviecard'
+import Moviecard from './Components/moviecard'
 import Home from './Pages/home'
 import Favourites from './Pages/favourites'
 import { Routes, Route } from 'react-router-dom'
-import NavBar from './components/navbar'
+import NavBar from './Components/navbar'
 
 function App() {
   return (
